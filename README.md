@@ -1,6 +1,6 @@
-# Raspberry PI Zero as a HID Keyboard
+# Raspberry PI Zero as a HID Keyboar
 
-On the pi, running `server.py` listens on a socket and sends keypresses.
+As root on the pi, running `server.py` listens on a socket and sends keypresses.
 
 On another computer, running `sender.py` sends the keystrokes over the socket. Currently only
 [a-zA-Z0-9] are supported.
