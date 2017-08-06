@@ -21,12 +21,12 @@ echo "dwc2" | sudo tee -a /etc/modules
 echo "libcomposite" | sudo tee -a /etc/modules
 
 # Register script to setup PI as HID device
-cp isticktoit_usb /usr/bin/isticktoit_usb
-chmod 755 /usr/bin/isticktoit_usb
+sudo cp isticktoit_usb /usr/bin/isticktoit_usb
+sudo chmod 755 /usr/bin/isticktoit_usb
 
 # Run this script at startup
-cp piHID.service /lib/systemd/system/piHID.service
-chmod 644 /lib/systemd/system/piHID.service
+sudo cp piHID.service /lib/systemd/system/piHID.service
+sudo chmod 644 /lib/systemd/system/piHID.service
 sudo systemctl daemon-reload
 sudo systemctl enable piHID.service
 
