@@ -10,7 +10,7 @@ On another computer, running `sender.py` sends the keystrokes over the socket. C
 
 1. Raspberry Pi Zero
 2. Kernel 4.4+
-3. Only tested with Linux PC
+3. Tested on Windows 10 and Ubuntu Gnome 17.04 as the receiving PC
 
 ## Sources
 
