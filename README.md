@@ -1,4 +1,4 @@
-# Raspberry PI Zero as a HID Keyboar
+# Raspberry PI Zero as a HID Keyboard
 
 As root on the pi, running `server.py` listens on a socket and sends keypresses.
 
