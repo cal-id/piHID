@@ -1,0 +1,10 @@
+[Unit]
+Description=Start Keyboard HID
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/isticktoit_usb
+
+[Install]
+WantedBy=multi-user.target
