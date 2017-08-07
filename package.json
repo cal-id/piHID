@@ -1,0 +1,31 @@
+{
+  "name": "pihid",
+  "version": "1.0.0",
+  "description": "Use raspberry pi as a wireless usb keyboard hid device.",
+  "main": "app.js",
+  "dependencies": {
+    "keypress": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callumi/piHID.git"
+  },
+  "keywords": [
+    "USB",
+    "HID",
+    "Wireless",
+    "Raspberry",
+    "PI",
+    "Zero"
+  ],
+  "author": "Callum Iddon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callumi/piHID/issues"
+  },
+  "homepage": "https://github.com/callumi/piHID#readme"
+}
